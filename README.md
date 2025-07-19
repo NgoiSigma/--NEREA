@@ -22,6 +22,18 @@ To develop a synthetic platform of logic, meaning, and structure that allows int
 | light_shell          | UI interface based on the LIGHT principle      |
 | meta_action_engine   | API layer for agentic execution                |
 
+
+Σ-NEREA/
+├── core/
+│   ├── fdl_core.py
+│   ├── interface_shell.py
+│   ├── fdl_stream_engine.py
+│   └── ...
+├── examples/
+│   └── shell_interface.py
+└── logs/
+    └── fdl_stream.log
+
 ---
 
 **Architected by**: `NGOI-SIGMA`
