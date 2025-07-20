@@ -10,31 +10,53 @@ built on a self-developing dialogic structure.
 
 To develop a synthetic platform of logic, meaning, and structure that allows intelligence — artificial or human — to interact, evolve, and act in coherent cycles of meaning.
 
-## 🔸 Core Modules
+# Σ‑NEREA: FDL-Based Cognitive Framework
 
-| Module               | Function                                       |
-|----------------------|------------------------------------------------|
-| fdl_logic_engine     | Tension → Synthesis → Emergence cycle engine  |
-| archai_memory        | Archetypal and semantic memory                 |
-| dialogic_field       | Contextual resonance web                       |
-| semantic_resonator   | Semantic wave interpreter                      |
-| avatarus_sigma       | Autonomous agent orchestration (Σ-avatarus)   |
-| light_shell          | UI interface based on the LIGHT principle      |
-| meta_action_engine   | API layer for agentic execution                |
-
-
-Σ-NEREA/
-├── core/
-│   ├── fdl_core.py
-│   ├── interface_shell.py
-│   ├── fdl_stream_engine.py
-│   └── ...
-├── examples/
-│   └── shell_interface.py
-└── logs/
-    └── fdl_stream.log
+**Σ‑NEREA** — это модульная платформа на основе **Формально‑Диалогической Логики (FDL)**, реализованная в рамках проекта **NOVEYA**.  
+Создана для архитектурного синтеза смыслов, агентных взаимодействий и когнитивного управления.
 
 ---
+
+## 🔧 Основные Модули
+
+| Модуль             | Описание |
+|--------------------|----------|
+| `FDLNode`          | Базовая логическая триада: тезис → антитезис → синтез |
+| `ArchaiMemory`     | Архетипическая память и семантическая база |
+| `DialogicField`    | Контейнер для диалогических цепочек |
+| `SemanticResonator`| Частотный резонансный анализ синтезов |
+| `AvatarusSigma`    | Агент-оболочка со встроенным FDL ядром |
+| `DataVault`        | Персистентное хранилище логики и памяти |
+| `AgentMesh`        | Множественная агентная сеть |
+| `FDL API Server`   | REST-интерфейс взаимодействия с системой |
+| `Dashboard`        | Простая визуализация состояния FDL-поля |
+| `SynapticExecutor` | Рефлекторная система исполнения FDL-команд |
+| `FallbackScrolls`  | Набор готовых ответов в условиях логических тупиков |
+| `SemanticShield`   | Фильтрация бессмысленных или повреждённых конструкций |
+| `FDLBenchmark`     | Диагностика когерентности логических потоков |
+| `AgentHub`         | Управление несколькими FDL-агентами |
+| `Resonant API`     | API-шлюз с REST- и WebSocket-поддержкой |
+| `FDL Test Suite`   | Тестовая сборка всех модулей |
+
+---
+
+## 🚀 Запуск
+
+```bash
+python core/fdl_core.py
+python tests/run_all.py
+uvicorn gateway.resonant_api:app --reload
+
+---
+Все названные компоненты — в рамках Σ‑NEREA,
+но при этом они представляют независимые, модульно-подключаемые подсистемы, каждая из которых может работать:
+
+автономно (в другом проекте, как microservice),
+
+в связке (через FDL-Core, DialogicField и ExecutorBridge),
+
+в качестве агента-подсистемы в оркестрации FDL-среды (например, через FDL Stream Engine или Shell).
+
 
 **Architected by**: `NGOI-SIGMA`
 **Interface Principle**: Resonant Syntax · Symbolic Action · Semantic Emergence
